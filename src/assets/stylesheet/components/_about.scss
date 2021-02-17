@@ -1,0 +1,178 @@
+.hero_banner {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  z-index: 1;
+  // margin-top: 1rem;
+}
+.title {
+  padding: 5rem 0rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: cursive;
+  background: #fff;
+  & p {
+    padding-bottom: 1rem;
+    border-bottom: 0.3rem solid rgb(128, 128, 128);
+    display: inline-block;
+    line-height: 7rem;
+  }
+}
+.about_quote {
+  padding: 10rem 0rem 5rem;
+  text-align: center;
+  background: #fff;
+  & p {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
+.about_section {
+  // margin: 10rem 0rem;
+  padding: 10rem 10rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  & p {
+    text-indent: 2rem;
+    margin: 0.4rem 0rem;
+    font-size: 2.2rem;
+  }
+}
+.usa_logo {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+.about_missionStatement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 3rem;
+  background: #fff;
+  // margin: 5rem 0rem 5rem 0rem;
+  & h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: 800;
+    color: black;
+    font-family: cursive;
+    margin-bottom: 2rem;
+  }
+  & p {
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+}
+.about_photos {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  margin-bottom: 20rem;
+  &-container {
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    // background: red;
+    // border: 1px solid black;
+  }
+}
+.team_container {
+  margin: 5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  text-align: center;
+  & h1 {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2rem 0rem;
+  }
+}
+.team_box-container {
+  display: flex;
+  flex-wrap: wrap;
+  // padding: 1rem;
+  justify-content: center;
+  // align-content: center;
+}
+.team_box {
+  width: 46%;
+  height: 40rem;
+  // background-color: yellow;
+  margin: .2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // align-content: center;
+}
+.team_img-container{
+  border: 1px solid black;
+  border-radius: 50%;
+  background-image: url('/images/slideshow2.jpg');
+  background-size: cover;
+  height: 25rem;
+  width: 20rem;
+  position: relative;
+  margin-left: 4rem;
+}
+.team_info-container {
+  display: flex;
+  flex-direction: column;
+  // background-color: brown;
+  height: 100%;
+  width: 50%;
+  align-items: center;
+  padding: 6rem 2rem ;
+}
+.team_name {
+  font-size: 2.4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.team_title {
+  font-size: 1.8rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 1rem;
+}
+.social_icons {
+  display: flex;
+  & a {
+    padding: 0rem 1rem;
+    color: black;
+    font-size: 2rem;
+  }
+  padding-bottom: 1rem;
+  border-bottom: 2px solid black;
+}
+.team_text {
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.team_contact-info {
+  border-top: 2px solid black;
+  padding-top: 1rem;
+}
+.info_text {
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  padding-top: 0.2rem;
+  font-size: 1.6rem;
+ & a{
+   text-decoration: none;
+   color: black;
+  //  margin: 0rem 2rem;
+   & i {
+     margin-right: 1rem;
+   }
+ }
+}
+
+

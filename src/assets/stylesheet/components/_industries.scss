@@ -1,0 +1,16 @@
+.industries_text {
+  margin: 5rem 0rem;
+  padding: 5rem 20rem;
+  & p {
+    text-indent: 2rem;
+    font-size: 1.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+  }
+}
+.industries_images {
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  padding-bottom: 20rem;
+}

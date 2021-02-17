@@ -1,0 +1,117 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(9, 138, 170) 0%, rgb(5, 192, 224) 100%);
+  color: white;
+  font-size: 1.5rem;
+  padding: 2rem 6rem;
+}
+.footer_logo {
+  // padding-left: 9rem;
+  margin-bottom: 1rem;
+  // margin-left: 3rem;
+  width: 30rem;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0rem 6rem;
+}
+.businessInfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  &_2ndp {
+    margin-bottom: 1rem;
+  }
+}
+.info_text {
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  padding-top: 0.2rem;
+  & i {
+    font-size: 1.2rem;
+  }
+  & p {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+  }
+}
+.nav_1 {
+  display: flex;
+  flex-direction: column;
+  & a {
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    padding: 0.1rem 0rem;
+  }
+}
+.nav_2 {
+  display: flex;
+  flex-direction: column;
+  & a {
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    padding: 0.1rem 0rem;
+  }
+}
+.newsletterSignup_container {
+  display: flex;
+  flex-direction: column;
+  &div {
+    display: flex;
+  }
+}
+.socialIcons_container {
+  display: flex;
+  & a {
+    padding: 0rem 1rem;
+    color: white;
+    font-size: 3rem;
+  }
+}
+.copyright {
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 2rem;
+
+  & a {
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    padding: 0rem 1rem;
+  }
+  & a:hover {
+    color: yellow;
+  }
+}
+.signup_form {
+ margin-top: 1rem;
+ display: flex;
+ justify-content: center;
+ & input {
+  //  border: 2px solid #000;
+   padding: 1.1rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   letter-spacing: .05rem;
+   
+ }
+}
+.signup_button {
+  background: coral;
+  padding: 0 2rem;
+  font-size: 1.4rem;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  border: none;
+}

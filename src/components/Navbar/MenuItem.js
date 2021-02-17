@@ -1,0 +1,22 @@
+export const MenuItems = [
+  {
+    title:'University',
+    path:'/catalog/university',
+    cName:'dropdown-link'
+  },
+  {
+    title:'Sports',
+    path:'/catalog/sports',
+    cName:'dropdown-link'
+  },
+  {
+    title:'Schools',
+    path:'/catalog/schools',
+    cName:'dropdown-link'
+  },
+  {
+    title:'Casinos',
+    path:'/catalog/casino',
+    cName:'dropdown-link'
+  }
+]
